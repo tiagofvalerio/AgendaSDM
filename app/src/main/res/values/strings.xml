@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AgendaSDM</string>
+
+    <string name="nome">Nome</string>
+    <string name="fone">Telefone</string>
+    <string name="fone_adicional">Telefone adicional</string>
+    <string name="email">E-mail</string>
+    <string name="salvar">Salvar</string>
+    <string name="hint_nome">Nome do contato</string>
+    <string name="hint_fone">Telefone do contato</string>
+    <string name="hint_fone_adicional">Telefone adicional do contato</string>
+    <string name="hint_email">E-mail do contato</string>
+    <string name="mensagem_alterado">Contato alterado!</string>
+    <string name="mensagem_incluido">Contato incluído!</string>
+
+    <string name="adicionar">Adicionar</string>
+
+    <string name="remover_contato">Remover</string>
+    <string name="chamar_contato">Chamar</string>
+    <string name="mensagem_removido">Contato removido!</string>
+    <string name="mensagem_erro_chamada">Impossível completar chamada!</string>
+
+    <string name="pesquisar">Pesquisar</string>
+    <string name="hint_pesquisar">Digite o nome</string>
+
+    <string name="bt_menos"> - </string>
+    <string name="bt_mais"> + </string>
+</resources>

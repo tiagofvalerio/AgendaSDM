@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/adicionar_contato"
+        android:title="@string/adicionar" />
+
+    <item
+        android:id="@+id/pesquisar_contato"
+        android:title="@string/pesquisar"/>
+</menu>

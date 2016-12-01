@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/et_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tv_fone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fone" />
+
+    <EditText
+        android:id="@+id/et_fone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fone"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tv_fone_adicional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fone_adicional"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/et_fone_adicional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fone_adicional"
+        android:inputType="phone"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_menos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="escondeCamposFoneAdicional"
+            android:text="@string/bt_menos"
+            android:textSize="24sp"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/bt_mais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mostraCamposFoneAdicional"
+            android:text="@string/bt_mais"
+            android:textSize="24sp"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/salvar" />
+</LinearLayout>
